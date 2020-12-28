@@ -35,6 +35,14 @@ body,html{
     padding-left: 250px;
    font-weight: bold;
 }
+._slide1{
+    width: 100%;
+    height: 100%;
+}
+._slide1 img{
+    width: 100%;
+    height: 100%;
+}
 .info{
    width: 10%;
    height: 100%;
