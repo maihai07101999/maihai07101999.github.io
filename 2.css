@@ -121,7 +121,7 @@ body,html{
 .product .td{
     width: 100%;
     padding: 4% 0 1% 1%;
-    height: 5%;
+    height: 3%!important;
     border-bottom: 1px solid #050505;
 }
 .fab.fa-buromobelexperte{
@@ -138,13 +138,7 @@ body,html{
    
 }
 .tron{
-    width: 35px;    
-    height: 35px;
-    border-radius: 50%;
-    background-color: #050505;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 4px;
+   color:#050505;
 }
 .sapxep{
     float: right;
@@ -274,10 +268,7 @@ body,html{
     font-size: 18px;
    
 }
-.tron{
-    width: 28px;
-    height: 28px;
-}
+
 .the{
     width: 50%;
     height: 14%;
