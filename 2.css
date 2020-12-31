@@ -260,17 +260,19 @@ body,html{
 .fab.fa-buromobelexperte{
     float: left;
     font-size: 18px;
+    transform:translateY(-10px);
     margin-right: 10px;
     
 }
 .fas.fa-grip-vertical{
     float: left;
     font-size: 18px;
+       transform:translateY(-10px);
    
 }
 
 .the{
-    width: 42%;
+    width: 41%;
     height: 16%;
     padding-left: 10px;
     padding-right: 10px;
