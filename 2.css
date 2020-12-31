@@ -260,26 +260,27 @@ body,html{
 .fab.fa-buromobelexperte{
     float: left;
     font-size: 18px;
-    transform:translateY(-10px);
+    transform:translateY(-20px);
     margin-right: 10px;
     
 }
 .fas.fa-grip-vertical{
     float: left;
     font-size: 18px;
-       transform:translateY(-10px);
+       transform:translateY(-20px);
    
 }
 
 .the{
     width: 41%;
-    height: 16%;
+    height: 18%;
     padding-left: 10px;
     padding-right: 10px;
 }
 .the .name{
     font-size: 10px;
-    padding-top: 3px;
+    padding-top: 1px;
+    line-height:20px;
 }
 .the .price{
     font-size: 12px;
