@@ -121,7 +121,7 @@ body,html{
 .product .td{
     width: 100%;
     padding: 4% 0 1% 1%;
-    height: 3%!important;
+    height: 3%;
     border-bottom: 1px solid #050505;
 }
 .fab.fa-buromobelexperte{
@@ -255,7 +255,7 @@ body,html{
     height: 150%;
 }
 .product .td{
-    height: 3%;
+    height: 4%;
 }
 .fab.fa-buromobelexperte{
     float: left;
