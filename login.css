@@ -1,0 +1,108 @@
+{padding:0; margin: 0;}
+html, body{
+	width: 100%;
+	height: 100%;
+}
+.formlogin{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: wheat;
+
+}
+.tieude{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 2%;
+	left: 46.5%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	background-color: #0074d929;
+	text-align: center;
+}
+.logo_left{
+	width: 30%;
+	height: 40%;
+	position: absolute;
+	top: 25%;
+	overflow: hidden;
+	left: 20%;
+	border: 1px solid #333;
+}
+.logo_right{
+	width: 30%;
+	height: 40%;
+	position: absolute;
+	top: 25%;
+	overflow: hidden;
+	background-color: #0074d929;
+	left: 50%;
+	border: 1px solid #333;
+	padding: 10px;
+	text-align: center;
+}
+
+.logo_left img{
+	width: 100%;
+	height: 100%;
+}
+.name_text, .pass_text{
+	position: absolute;
+	top: 80px;
+	left: 150px;
+}
+.pass_text{
+	top: 130px;
+	left: 150px;
+}
+.logo_right .lg1{
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	font-size: 17px;
+	color:  #373a3c;
+
+}
+.logo_right .lg2{
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	font-size: 17px;
+	color: #373a3c;
+}
+.btn_1, .btn_2{
+	position: absolute;
+	top: 180px;
+	left: 90px;
+	z-index: 5;
+	color:  #373a3c !important;
+
+}
+.btn_2{
+	top: 180px;
+	left: 220px;
+}
+@media(max-width:768px){
+.logo_left{
+	opacity: 0;
+	visibility: hidden;
+}
+.logo_right{
+	width: 85%;
+	left: 7%;
+}
+.logo_right .lg1, .logo_right .lg2{
+	font-size: 14px;
+}
+.name_text, .pass_text{
+	top: 80px;
+	left: 120px;
+}
+.pass_text{
+	top: 130px;
+	left: 120px;
+}
+
+}

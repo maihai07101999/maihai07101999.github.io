@@ -1,0 +1,176 @@
+.sp{
+    width: 100%;
+    height: 120%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 2% 15% 2% 15%;
+}
+.sp img{
+	width: 40%;
+	height: 65%;
+	float: left;
+}
+.sp .tensp{
+	font-size: 20px;
+	font-weight: 500;
+	padding-left:  45%;
+	padding-bottom: 3%;
+
+}
+.sp .giasp{
+	font-size: 25px;
+	padding-left: 45%;
+}
+.sp .sl{
+	padding-left: 45%;	
+}
+.sl_1, .sl_2,.sl_3{
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	color: wheat;
+	background-color: #333;
+	
+	line-height: 8px;
+}
+.btn_1{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	background-color: #050505;		
+}
+.size{
+	font-size: 20px;
+	padding-left: 45%;
+
+}
+ul._size{
+	padding-left: 45%;
+}
+ul._size li .btn.btn-outline-warning{
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+	list-style: none;
+	line-height: 10px;
+
+}
+.active3{
+	background-color:#f0ad4e;
+	color: white;
+}
+
+ul._size li{
+	list-style: none;
+}
+.giohang1{
+	position: absolute;
+	border-radius: 50%;
+	top: 35px;
+	right: 18.3%;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	background-color: blue;
+	color: red;
+	z-index: 10;
+}
+
+/* .giohang{
+	position: absolute;
+	width: 20px;height: 20px;
+	background-color: #3a3ab9;
+	text-align: center;
+	border-radius: 50%;
+	top: 29.3%;
+	right: 18.6%;
+	z-index: 10;
+	color: red;
+	font-size: 13px;
+} */
+
+.lienquan{
+	position: absolute;
+	width: 50%;
+	height: 19.9%;
+	left: 15%;
+	top: 96%;
+	
+	z-index: 5;
+}
+.lienquan img{
+	width: 19%;
+	height: 95%;
+	padding-top: 1%;
+	padding-right: 10px;
+	border-top: 2px solid #333;
+}
+.lienquan .lq{
+	width: 180px;
+	height: 25px;
+	background-color: #0c0b0b;
+	position: absolute;
+	transform: translateY(-20px);
+	left: 10px;
+	color: #d51515;
+	z-index: 10;
+	font-size: 19px;
+	font-weight: 500;
+	display: inline-block;
+	text-align: center;
+}
+@media(max-width:768px){
+	.sp{
+		padding: 2% 5% 2% 5%;
+	}
+	.sp img{
+		float: none;
+		width: 100%;
+		height: 50%;
+	}
+	.sp .tensp{
+		
+		padding-left:  5%;
+		padding-bottom: 3%;
+
+	}
+	.sp .giasp{
+		
+		padding-left: 5%;
+	}
+	.sp .sl{
+		padding-left: 5%;	
+	} 
+	ul._size{
+		padding-left: 5%;
+	}
+	.btn_1{
+		top: 62%;
+		left: 35%;
+	}
+	.size{
+		padding-left: 5%;
+	}
+	.lienquan{
+		position: absolute;
+		width: 120%;
+		height: 19.9%;
+		left: 10%;
+		top: 115%;
+		
+		z-index: 5;
+	}
+	.giohang1{
+	position: absolute;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	background-color: blue;
+	top:5px;
+	left:94%;
+	color: red;
+	z-index: 10;
+}
+}

@@ -1,0 +1,88 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.topmenu{
+	width: 100%;
+}
+
+.shopping table tr{
+	border: 2px solid #333;
+}
+.xoa{
+	opacity: 1;
+	visibility: hidden;
+}
+
+.shopping table tr th{
+	border: 2px solid #333;
+	padding: 5px 10px;
+	background-color: yellow;
+	width: 100%;
+}
+.shopping table tr td{
+	height: auto;
+	height: 100%;
+
+}
+.shopping{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	position: relative;
+	top: 50px;
+	left: 0px;
+}
+.shopping table{
+	width: 100%;
+	height: auto;
+
+}
+.thenho img{
+	float: left;
+	width: 150px;
+	height: 158px;
+
+}
+.thenho{
+	width: 100%;
+	height: 160px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+.thenho table tr{
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	
+}
+.h1{
+	float: left;
+	margin: 10px;
+}
+label{
+	float: left;
+	padding: 10px;
+	padding-left: 580px;
+}
+.tongtientt{
+	float: left;
+	padding: 10px;
+	padding-left: 10px;
+
+}
+.h2{
+	margin: 10px;
+	
+}
+@media(max-width:768px){
+	.shopping{
+		width: 100%;
+		height: auto;
+		
+		position: relative;
+		top: 50px;
+		left: 0px;
+	}
+}

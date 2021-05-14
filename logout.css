@@ -1,0 +1,102 @@
+*{margin:0; padding:0;}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.logout{
+	width: 45%;
+	height: 45%;
+	position: relative;
+	z-index: 1;
+	top: 25%;
+	left: 30%;
+	background-color:#0074d929;
+}
+.lg1,.lg2,.lg3,.lg4{
+	position: absolute;
+	z-index: 2;
+	top: 60px;
+	left: 30px;
+
+}
+.lg2{
+	top: 160px;
+}
+.lg3{
+	left: 290px;
+}
+.lg4{
+	top: 160px;
+	left: 290px;
+}
+.name_text,.email_text,.phone_text,.pass_text{
+	position: absolute;
+	z-index: 2;
+	top: 60px;
+	left: 80px;
+}
+.email_text{
+	top: 160px;
+
+}
+.phone_text{
+	left: 370px;
+}
+.pass_text{
+	top: 160px;
+	left: 370px;
+}
+.btn_1{
+	position: absolute;
+	z-index: 2;
+	top: 200px;
+	left: 80px;
+}
+.to{
+	width: 100%;
+	height: 100%;
+	background-color:wheat;
+
+}
+@media(max-width:768px){
+
+	.logout{
+		width: 90%;
+		height: 55%;
+		top: 20%;
+		left: 5%;
+		overflow: hidden;
+	}
+	.lg2{
+		top: 120px;
+		
+	}
+	.lg3{
+		top: 180px;
+		left: 30px;
+	}
+	.lg4{
+		top: 240px;
+		left: 30px;
+	}
+	.btn_1{
+		top: 320px;
+	}
+	.name_text{
+		left: 105px;
+	}
+	.email_text{
+		left: 105px;
+		top: 120px;
+
+	}
+	.phone_text{
+		top: 180px;
+		left: 105px;
+	}
+	.pass_text{
+		top: 240px;
+		left: 105px;
+	}
+
+}
